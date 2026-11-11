@@ -31,7 +31,7 @@ export default function Login() {
   return (
     <main className="auth-page">
       <section className="auth-visual">
-        <div className="visual-top"><span className="brand-symbol">M</span><span>MERIDIAN <b>AUTH</b></span></div>
+        <div className="visual-top"><span className="brand-symbol">M</span><span>MERN <b>AUTH</b></span></div>
         <div className="visual-copy">
           <span className="visual-kicker"><i /> YOUR SPACE. YOUR SECURITY.</span>
           <h2>Everything you need.<br /><em>One secure place.</em></h2>
@@ -47,7 +47,7 @@ export default function Login() {
       </section>
 
       <section className="auth-panel">
-        <div className="mobile-brand"><span className="brand-symbol">M</span> MERIDIAN AUTH</div>
+        <div className="mobile-brand"><span className="brand-symbol">M</span> MEREN AUTH</div>
         <div className="auth-content">
           <div className="form-heading">
             <span className="form-kicker">WELCOME BACK</span>
@@ -62,7 +62,7 @@ export default function Login() {
             {error && <p className="notice error" role="alert">{error}</p>}
             <button className="primary-button" disabled={loading}>{loading ? "Signing you in..." : <>Sign in <span>→</span></>}</button>
           </form>
-          <p className="switch-link">New to Meridian? <Link to="/register">Create an account <span>↗</span></Link></p>
+          <p className="switch-link">New to Mern auth? <Link to="/register">Register <span>↗</span></Link></p>
           <div className="form-security"><span>◇</span> Your information is protected with secure authentication.</div>
         </div>
       </section>

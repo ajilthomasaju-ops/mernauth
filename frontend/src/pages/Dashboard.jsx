@@ -32,10 +32,10 @@ export default function Dashboard() {
   return (
     <main className="dashboard-shell">
       <aside className="dashboard-sidebar">
-        <div className="sidebar-brand"><span className="brand-symbol">M</span><span>MERIDIAN <b>AUTH</b></span></div>
+        <div className="sidebar-brand"><span className="brand-symbol">M</span><span>MERN <b>AUTH</b></span></div>
         <div className="sidebar-section">WORKSPACE</div>
         <div className="sidebar-link active"><span>▦</span> Overview</div>
-        <div className="sidebar-bottom"><div className="sidebar-secure"><span>◇</span><div><b>Secure session</b><small>JWT protected</small></div></div><button className="sidebar-logout" onClick={handleLogout}><span>↪</span> Sign out</button></div>
+        <div className="sidebar-bottom"><button className="sidebar-logout" onClick={handleLogout}><span>↪</span> LOGOUT</button></div>
       </aside>
 
       <section className="dashboard-main">
